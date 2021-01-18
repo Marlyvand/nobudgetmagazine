@@ -1,0 +1,191 @@
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #138AA5; 
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    color: white; 
+    opacity: 0.8;
+}
+
+nav {
+    height: 50px; 
+    width: 100%;
+    background-color:#FCBE38; 
+}
+
+.navcenter {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 40px;
+    padding: 10px;
+    color: white;
+    opacity: 0.8;
+}
+
+a {
+    color: black; 
+    text-decoration: none;
+}
+
+li a {
+    color: white; 
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+}
+
+main {
+    height: 1186px;
+    width: 1250px;
+    margin: 0 auto; 
+    background-color: palevioletred;
+}
+
+section {
+    height: 635px;
+    width: 1200px; 
+    margin: 0 auto; 
+    background-color: peachpuff;
+}
+
+.container{
+    height: 635px; 
+    width: 824px; 
+    float: left; 
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 20px;
+    color:black;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color:black;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+    color:black;
+}
+
+img {
+    width: 385px;
+    height: 205px;
+    padding: 5px;
+}
+
+.voorstel {
+    height: 295px;
+    width: 824px; 
+    background-color: tan;
+    float: left; 
+}
+
+.interview {
+    height: 295px;
+    width: 400px;
+    margin-top: 22px;
+    background-color: tomato;
+    float: left; 
+}
+
+.fotografie {
+    height: 295px;
+    width: 400px;
+    margin-top: 22px;
+    background-color: thistle;
+    float: right; 
+}
+
+.box {
+    height: 635px; 
+    width: 376px;
+    float: right; 
+}
+
+.zoeken {
+    height: 42px; 
+    width: 342px;
+    background-color: violet;
+    float: right; 
+}
+
+.zoeken img {
+    width: 27px;
+    height: 27px;
+    margin-left: 15px;
+    float: left; 
+}
+.zoeken h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding: 8px;
+    padding-right: 180px;
+    text-align: left;
+    text-transform: uppercase;
+    color:black;
+    float: right;
+}
+
+.order {
+    height: 553px;
+    width: 342px;
+    margin-top: 20px;
+    background-color: yellowgreen;
+    float: right; 
+}
+
+article {
+    height: 552px;
+    width: 1200px;
+    margin: 0 auto; 
+    background-color: powderblue;
+}
+
+.video {
+    height: 487px; 
+    width: 824px;
+    margin-top: 33px;
+    background-color: rosybrown;
+    float: left; 
+}
+
+.videotext {
+    height: 487px;
+    width: 342px;
+    margin-top: 33px;
+    background-color: silver;
+    float: right; 
+}
+
+footer {
+    height: 100px; 
+    width: 100%;
+    background-color: pink
+}
