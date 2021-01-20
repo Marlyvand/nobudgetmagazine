@@ -4,21 +4,17 @@ header {
     background-color: #138AA5; 
 }
 
-h1 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 70px;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 15px;
-    color: white; 
-    opacity: 0.8;
-}
-
 nav {
     height: 50px; 
     width: 100%;
-    background-color:#FCBE38; 
+    background-color:#FCBE38;
+}
+
+nav img {
+    height: 40px;
+    float: right;
+    padding-right: 250px;
+    margin-top: -5px;
 }
 
 .navcenter {
@@ -65,36 +61,10 @@ section {
     height: 635px; 
     width: 824px; 
     float: left; 
+    background-color: blue;
 }
 
-h2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-    text-align: left;
-    text-transform: uppercase;
-    padding: 20px;
-    color:black;
-}
-
-h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-    text-align: center;
-    text-transform: uppercase;
-    color:black;
-}
-
-p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    text-align: left;
-    padding: 20px;
-    color:black;
-}
-
-img {
+section img {
     width: 385px;
     height: 205px;
     padding: 5px;
@@ -188,4 +158,109 @@ footer {
     height: 100px; 
     width: 100%;
     background-color: pink
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    color: white; 
+    opacity: 0.8;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 20px;
+    color:black;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    color:black;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color:black;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color:black;
+}
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 25px 0px 10px 15px;
+    line-height: 25px;
+    text-align: left;
+    color:black;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    padding: 20px;
+    color:black;
+}
+
+
+/* * {box-sizing: border-box} */
+
+/* Full-width input fields */
+input[type=text] {
+font-family: 'Roboto', sans-serif;
+width: 280px;
+padding: 15px;
+margin: 0px 0px 0px 15px;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #FCBE38;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding: 16px 30px;
+  margin: 15px 130px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.registerbtn:hover {
+background-color:#138AA5;
 }
