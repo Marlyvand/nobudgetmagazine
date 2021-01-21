@@ -13,7 +13,6 @@ nav {
 nav img {
     height: 40px;
     float: right;
-    padding-right: 250px;
     margin-top: -5px;
 }
 
@@ -23,20 +22,20 @@ nav img {
     font-size: 30px;
     text-align: center;
     text-transform: uppercase;
+    color: white;
     word-spacing: 40px;
     padding: 10px;
-    color: white;
-    opacity: 0.8;
+    width: 1200px;
+    margin: 0 auto; 
 }
 
 a {
-    color: black; 
+    color: white; 
     text-decoration: none;
 }
 
-li a {
-    color: white; 
-    text-decoration: none;
+a:hover {
+    opacity: 0.8;
 }
 
 li {
@@ -44,66 +43,97 @@ li {
 }
 
 main {
-    height: 1186px;
-    width: 1250px;
     margin: 0 auto; 
-    background-color: palevioletred;
 }
 
 section {
-    height: 635px;
     width: 1200px; 
     margin: 0 auto; 
-    background-color: peachpuff;
 }
 
 .container{
-    height: 635px; 
-    width: 824px; 
+    width: 0 auto; 
+    margin: 0 auto;
+    width: 830px; 
     float: left; 
-    background-color: blue;
 }
 
 section img {
-    width: 385px;
-    height: 205px;
-    padding: 5px;
+    width: 380px;
+    height: 200px;
+    margin: 0 auto;
+    padding-left: 9px;
+    padding-top: 9px;
+}
+
+section img:hover {
+    opacity: 0.7;
 }
 
 .voorstel {
     height: 295px;
-    width: 824px; 
-    background-color: tan;
-    float: left; 
+    width: 827px; 
+    margin-top: 20px;
+    border: solid 2px black; 
+}
+
+.voorstel:hover {
+    background-color: #ddd;
+    box-shadow: 5px 5px 5px 0px  rgba(0,0,0,0.5);
+    transition: all 0.7s; 
+}
+
+.voorstel h2 {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .interview {
-    height: 295px;
+    height: 290px;
     width: 400px;
-    margin-top: 22px;
-    background-color: tomato;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: solid 2px black; 
     float: left; 
 }
 
+.interview:hover {
+    background-color: #ddd;
+    box-shadow: 5px 5px 5px 0px  rgba(0,0,0,0.5);
+    transition: all 0.7s;
+}
+
 .fotografie {
-    height: 295px;
+    height: 290px;
     width: 400px;
-    margin-top: 22px;
-    background-color: thistle;
+    margin-top: 20px;
+    border: solid 2px black; 
     float: right; 
 }
 
+.fotografie:hover {
+    background-color: #ddd;
+    box-shadow: 5px 5px 5px 0px  rgba(0,0,0,0.5);
+    transition: all 0.7s;
+}
+
 .box {
-    height: 635px; 
-    width: 376px;
+    width: 342px;
     float: right; 
 }
 
 .zoeken {
     height: 42px; 
     width: 342px;
-    background-color: violet;
+    margin-top: 20px;
     float: right; 
+    background-color: #ddd;
+}
+
+.zoeken:hover{
+    box-shadow: 5px 5px 5px 0px  rgba(0,0,0,0.5);
+    transition: all 0.5s;
 }
 
 .zoeken img {
@@ -112,52 +142,110 @@ section img {
     margin-left: 15px;
     float: left; 
 }
-.zoeken h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    padding: 8px;
-    padding-right: 180px;
-    text-align: left;
-    text-transform: uppercase;
-    color:black;
-    float: right;
+
+.zoeken img:hover {
+    opacity: 0.5;
 }
 
+.zoeken input[type=text] {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 250px;
+    padding: 9px;
+    display: inline-block;
+    border: none;
+    background:  #ddd;
+    }
+
 .order {
-    height: 553px;
+    height: 536px;
     width: 342px;
     margin-top: 20px;
-    background-color: yellowgreen;
+    padding-top: 15px;
+    background-color: #138AA5;
     float: right; 
 }
+
+.order:hover {
+box-shadow: 8px 8px 8px 0px  rgba(0,0,0,0.5);
+transition: all 1s; 
+}
+
+.order h2 {
+    font-size: 25px;
+    color: white;
+}
+
+input[type=text] {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width: 280px;
+    padding: 15px;
+    margin: 0px 0px 0px 15px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    }
+    
+input[type=text]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+    
+.registerbtn {
+      background-color: #FCBE38;
+      font-family: 'Roboto', sans-serif;
+      color: white;
+      padding: 16px 30px;
+      margin: 15px 115px;
+      border: none;
+      cursor: pointer;
+    }
+    
+.registerbtn:hover {
+    box-shadow: 3px 3px 3px 0px  rgba(0,0,0,0.5);
+    transition: all 0.5s;
+    }
 
 article {
     height: 552px;
     width: 1200px;
-    margin: 0 auto; 
-    background-color: powderblue;
+    margin: 0 auto;
 }
 
 .video {
-    height: 487px; 
-    width: 824px;
     margin-top: 33px;
-    background-color: rosybrown;
     float: left; 
 }
 
 .videotext {
-    height: 487px;
-    width: 342px;
+    height: 482px;
+    width: 340px;
     margin-top: 33px;
-    background-color: silver;
+    padding-top: 15px;
+    border: solid 2px black; 
     float: right; 
 }
 
+.videotext:hover {
+    background-color: #ddd;
+    box-shadow: 5px 5px 5px 0px  rgba(0,0,0,0.5);
+    transition: all 0.7s;
+}
+
 footer {
-    height: 100px; 
+    height: 50px; 
     width: 100%;
-    background-color: pink
+    background-color: #138AA5; 
+}
+
+footer h2 {
+    padding-top: 10px;
+    color:white;
+}
+
+.clear {
+    clear: both;
 }
 
 h1 {
@@ -174,93 +262,29 @@ h1 {
 h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 25px;
-    text-align: left;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
     text-transform: uppercase;
-    padding: 20px;
     color:black;
 }
 
 h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 25px;
-    line-height: 33px;
-    text-align: center;
-    text-transform: uppercase;
-    color:black;
-}
-
-h4 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 33px;
-    text-align: center;
-    padding-top: 20px;
-    text-transform: uppercase;
-    color:black;
-}
-
-h5 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 33px;
-    text-align: center;
-    padding-top: 20px;
-    text-transform: uppercase;
-    color:black;
-}
-h6 {
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    padding: 25px 0px 10px 15px;
+    padding: 20px 0px 5px 15px;
     line-height: 25px;
     text-align: left;
-    color:black;
+    color:white;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-weight: normal;
+    font-size: 19px;
     line-height: 25px;
     text-align: left;
     padding: 20px;
     color:black;
-}
-
-
-/* * {box-sizing: border-box} */
-
-/* Full-width input fields */
-input[type=text] {
-font-family: 'Roboto', sans-serif;
-width: 280px;
-padding: 15px;
-margin: 0px 0px 0px 15px;
-display: inline-block;
-border: none;
-background: #f1f1f1;
-}
-
-input[type=text]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-/* Set a style for the submit/register button */
-.registerbtn {
-  background-color: #FCBE38;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  padding: 16px 30px;
-  margin: 15px 130px;
-  border: none;
-  cursor: pointer;
-
-}
-
-.registerbtn:hover {
-background-color:#138AA5;
 }
