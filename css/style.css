@@ -16,9 +16,14 @@ nav img {
     margin-top: -5px;
 }
 
+nav img:hover {
+    opacity: 0.8;
+}
+
 .navcenter {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    letter-spacing: 1px;
     font-size: 30px;
     text-align: center;
     text-transform: uppercase;
@@ -54,7 +59,6 @@ section {
 .container{
     width: 0 auto; 
     margin: 0 auto;
-    width: 830px; 
     float: left; 
 }
 
@@ -208,9 +212,8 @@ input[type=text]:focus {
     }
 
 article {
-    height: 552px;
     width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .video {
@@ -236,6 +239,7 @@ article {
 footer {
     height: 50px; 
     width: 100%;
+    margin: 20px auto 0 0; 
     background-color: #138AA5; 
 }
 
@@ -262,6 +266,7 @@ h1 {
 h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    letter-spacing: 0.8px;
     font-size: 22px;
     line-height: 33px;
     text-align: center;
@@ -272,6 +277,7 @@ h2 {
 h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    letter-spacing: 0.8px;
     font-size: 20px;
     padding: 20px 0px 5px 15px;
     line-height: 25px;
@@ -282,6 +288,7 @@ h3 {
 p {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
+    letter-spacing: 0.2px;
     font-size: 19px;
     line-height: 25px;
     text-align: left;
